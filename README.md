@@ -8,7 +8,7 @@ A sharable Renovate config for macchiitaka.
 
 ```json
 {
-  "extends": ["@macchii_taka"]
+  "extends": ["@macchiitaka"]
 }
 ```
 
