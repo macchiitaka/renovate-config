@@ -1,5 +1,5 @@
 {
-  "name": "@macchiitaka/renovate-config",
+  "name": "renovate-config-macchiitaka",
   "version": "1.0.0",
   "description": "A sharable Renovate config for macchiitaka.",
   "keywords": [
@@ -30,5 +30,61 @@
     "renovate": "^24.49.9",
     "sort-package-json": "^1.48.1"
   },
-  "renovate-config": {}
+  "renovate-config": {
+    "default": {
+      "extends": [
+        ":automergeLinters",
+        ":automergePatch",
+        ":automergeTesters",
+        ":automergeTypes",
+        ":dependencyDashboard",
+        ":enableRenovate",
+        ":enableVulnerabilityAlertsWithLabel(vulnerability)",
+        ":ignoreModulesAndTests",
+        ":ignoreUnstable",
+        ":label(renovate)",
+        ":npm",
+        ":prConcurrentLimit10",
+        ":prHourlyLimitNone",
+        ":prImmediately",
+        ":semanticCommits",
+        ":semanticPrefixFixDepsChoreOthers",
+        ":separateMajorReleases",
+        ":separatePatchReleases",
+        ":timezone(Asia/Tokyo)",
+        ":updateNotScheduled",
+        ":widenPeerDependencies",
+        "group:definitelyTyped",
+        "group:jsTest",
+        "group:jsTestMonMajor",
+        "group:linters",
+        "group:monorepos",
+        "group:nextjsMonorepo",
+        "group:postcss",
+        "group:recommended",
+        "group:test",
+        "npm:unpublishSafe",
+        "helpers:disableTypesNodeMajor"
+      ],
+      "schedule": [
+        "after 1pm",
+        "before 9am"
+      ],
+      "rangeStrategy": "bump",
+      "postUpdateOptions": [
+        "npmDedupe",
+        "yarnDedupeHighest"
+      ],
+      "packageRules": [
+        {
+          "description": "disable package.json > engines update",
+          "matchDepTypes": [
+            "engines"
+          ],
+          "enabled": false
+        }
+      ],
+      "ignoreDeps": []
+    }
+  }
 }

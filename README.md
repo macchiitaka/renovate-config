@@ -1,4 +1,4 @@
-# @macchiitaka/renovate-config
+# renovate-config-macchiitaka
 
 A sharable Renovate config for macchiitaka.
 
@@ -8,7 +8,7 @@ A sharable Renovate config for macchiitaka.
 
 ```json
 {
-  "extends": ["@macchiitaka"]
+  "extends": ["macchiitaka"]
 }
 ```
 
