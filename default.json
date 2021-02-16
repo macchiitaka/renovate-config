@@ -19,7 +19,7 @@
     ":prImmediately",
     ":semanticCommits",
     ":semanticPrefixFixDepsChoreOthers",
-    ":separateMultipleMajorReleases",
+    ":separateMajorReleases",
     ":separatePatchReleases",
     ":timezone(Asia/Tokyo)",
     ":widenPeerDependencies",
