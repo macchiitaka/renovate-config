@@ -10,6 +10,7 @@
     ":ignoreModulesAndTests",
     ":ignoreUnstable",
     ":label(renovate)",
+    ":maintainLockFilesWeekly",
     ":noUnscheduledUpdates",
     ":npm",
     ":prConcurrentLimit10",
