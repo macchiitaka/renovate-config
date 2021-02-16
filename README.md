@@ -1,6 +1,8 @@
-# macchiitaka/renovate-config
+# @macchii_taka/renovate-config
 
-A sharable Renovate config for macchiitaka.
+[![npm version](https://badge.fury.io/js/%macchii_taka%2Frenovate-config.svg)](https://badge.fury.io/js/%macchii_taka%2Frenovate-config)
+
+A sharable Renovate config for macchii_taka.
 
 ## Usage
 
@@ -8,7 +10,7 @@ A sharable Renovate config for macchiitaka.
 
 ```json
 {
-  "extends": ["@macchiitaka"]
+  "extends": ["@macchii_taka"]
 }
 ```
 
