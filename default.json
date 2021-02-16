@@ -1,8 +1,8 @@
 {
   "extends": [
-        ":enableRenovate",
-        ":npm",
-    ":automergePatch",    
+    ":enableRenovate",
+    ":npm",
+    ":automergePatch",
     ":automergeLinters",
     ":automergeTesters",
     ":automergeTypes",
@@ -13,7 +13,7 @@
     ":label(renovate)",
     ":maintainLockFilesWeekly",
     ":noUnscheduledUpdates",
-":ignoreUnstable",
+    ":ignoreUnstable",
     ":prConcurrentLimit10",
     ":prHourlyLimitNone",
     ":prImmediately",
