@@ -33,7 +33,7 @@
     "npm:unpublishSafe",
     "helpers:disableTypesNodeMajor"
   ],
-  "schedule": ["after 9pm", "before 9am"],
+  "schedule": ["after 1pm", "before 9am"],
   "rangeStrategy": "bump",
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
   "packageRules": [
