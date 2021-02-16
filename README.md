@@ -1,4 +1,4 @@
-# @macchii_taka/renovate-config
+# @macchiitaka/renovate-config
 
 A sharable Renovate config for macchiitaka.
 
@@ -14,7 +14,7 @@ A sharable Renovate config for macchiitaka.
 
 ## Settings
 
-See the settings in [package.json](https://github.com/macchii_taka/renovate-config/blob/main/package.json) and [Configuration Options](https://renovatebot.com/docs/configuration-options/) in Renovate Docs
+See the settings in [package.json](https://github.com/macchiitaka/renovate-config/blob/main/package.json) and [Configuration Options](https://renovatebot.com/docs/configuration-options/) in Renovate Docs
 
 ## License
 

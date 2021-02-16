@@ -1,5 +1,5 @@
 {
-  "name": "@macchii_taka/renovate-config",
+  "name": "@macchiitaka/renovate-config",
   "version": "1.0.0",
   "description": "A sharable Renovate config for macchiitaka.",
   "keywords": [
