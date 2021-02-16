@@ -10,6 +10,7 @@
     ":ignoreModulesAndTests",
     ":ignoreUnstable",
     ":label(renovate)",
+    ":noUnscheduledUpdates",
     ":npm",
     ":prConcurrentLimit10",
     ":prHourlyLimitNone",
@@ -19,9 +20,7 @@
     ":separateMajorReleases",
     ":separatePatchReleases",
     ":timezone(Asia/Tokyo)",
-    ":updateNotScheduled",
     ":widenPeerDependencies",
-    "group:definitelyTyped",
     "group:jsTest",
     "group:jsTestMonMajor",
     "group:linters",
@@ -30,8 +29,8 @@
     "group:postcss",
     "group:recommended",
     "group:test",
-    "npm:unpublishSafe",
-    "helpers:disableTypesNodeMajor"
+    "helpers:disableTypesNodeMajor",
+    "npm:unpublishSafe"
   ],
   "schedule": ["after 1pm", "before 9am"],
   "rangeStrategy": "bump",
