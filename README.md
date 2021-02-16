@@ -10,7 +10,7 @@ A sharable Renovate config for macchiitaka.
 {
   "extends": [
     "github>macchiitaka/renovate-config",
-    ":assignAndReview(GITHUB_USERNAME)"
+    ":assignee(GITHUB_USERNAME)"
   ]
 }
 ```
