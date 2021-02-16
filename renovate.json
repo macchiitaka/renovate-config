@@ -1,3 +1,6 @@
 {
-  "extends": ["github>macchiitaka/renovate-config", ":assignAndReview(macchiitaka)"]
+  "extends": [
+    "github>macchiitaka/renovate-config",
+    ":assignAndReview(macchiitaka)"
+  ]
 }

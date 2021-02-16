@@ -8,7 +8,10 @@ A sharable Renovate config for macchiitaka.
 
 ```json
 {
-  "extends": ["macchiitaka"]
+  "extends": [
+    "github>macchiitaka/renovate-config",
+    ":assignAndReview(GITHUB_USERNAME)"
+  ]
 }
 ```
 
