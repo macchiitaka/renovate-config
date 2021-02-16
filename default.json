@@ -1,7 +1,7 @@
 {
   "extends": [
+    ":automergePatch",    
     ":automergeLinters",
-    ":automergePatch",
     ":automergeTesters",
     ":automergeTypes",
     ":dependencyDashboard",
