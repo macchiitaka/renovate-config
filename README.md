@@ -1,7 +1,5 @@
 # @macchii_taka/renovate-config
 
-[![npm version](https://badge.fury.io/js/%macchii_taka%2Frenovate-config.svg)](https://badge.fury.io/js/%macchii_taka%2Frenovate-config)
-
 A sharable Renovate config for macchiitaka.
 
 ## Usage
