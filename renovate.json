@@ -1,3 +1,5 @@
 {
-  "extends": ["macchiitaka", ":assignAndReview(macchiitaka)"]
+  "default": {
+    "extends": ["macchiitaka", ":assignAndReview(macchiitaka)"]
+  }
 }
