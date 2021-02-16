@@ -1,4 +1,4 @@
-# @macchiitaka/renovate-config
+# macchiitaka/renovate-config
 
 A sharable Renovate config for macchiitaka.
 
