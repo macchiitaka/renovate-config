@@ -1,0 +1,33 @@
+{
+  "name": "@macchii_taka/renovate-config",
+  "version": "1.0.0",
+  "description": "A sharable Renovate config for macchiitaka.",
+  "keywords": [
+    "renovate"
+  ],
+  "homepage": "https://github.com/macchiitaka/renovate-config#readme",
+  "bugs": {
+    "url": "https://github.com/macchiitaka/renovate-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macchiitaka/renovate-config.git"
+  },
+  "license": "MIT",
+  "author": "macchiitaka <zxcvbnmtacashi@gmail.com>",
+  "files": [],
+  "scripts": {
+    "fmt": "run-p fmt:**",
+    "fmt:json": "prettier --write --tab-width 2 '**/*.json'",
+    "fmt:md": "prettier --write --tab-width 2 '**/*.md'",
+    "fmt:package-json": "sort-package-json",
+    "test": "renovate-config-validator"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.2.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "renovate": "^0.0.0-semantic-release",
+    "sort-package-json": "^1.48.1"
+  }
+}
