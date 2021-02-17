@@ -31,8 +31,7 @@
     "group:postcss",
     "group:recommended",
     "group:test",
-    "helpers:disableTypesNodeMajor",
-    "npm:unpublishSafe"
+    "helpers:disableTypesNodeMajor"
   ],
   "schedule": ["after 9pm", "before 9am"],
   "rangeStrategy": "bump",
