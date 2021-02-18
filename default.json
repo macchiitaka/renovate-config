@@ -34,6 +34,11 @@
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
   "packageRules": [
     {
+      "groupName": "sort-package-json",
+      "matchPackageNames": ["sort-package-json"],
+      "automerge": true
+    },
+    {
       "description": "disable package.json > engines update",
       "matchDepTypes": ["engines"],
       "enabled": false
