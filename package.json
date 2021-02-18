@@ -18,8 +18,7 @@
   "files": [],
   "scripts": {
     "fmt": "run-p fmt:**",
-    "fmt:json": "prettier --write --tab-width 2 '**/*.json'",
-    "fmt:md": "prettier --write --tab-width 2 '**/*.md'",
+    "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
     "fmt:package-json": "sort-package-json",
     "test": "renovate-config-validator"
   },
