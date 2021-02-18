@@ -17,7 +17,7 @@
   "author": "macchiitaka <zxcvbnmtacashi@gmail.com>",
   "files": [],
   "scripts": {
-    "fmt": "run-p fmt:**",
+    "fmt": "run-s fmt:prettier fmt:package-json",
     "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
     "fmt:package-json": "sort-package-json",
     "test": "renovate-config-validator"
