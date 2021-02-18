@@ -2,18 +2,19 @@
   "extends": [
     ":enableRenovate",
     ":npm",
-    ":automergePatch",
+    ":autodetectPinVersions",
     ":automergeLinters",
+    ":automergePatch",
     ":automergeTesters",
     ":automergeTypes",
     ":dependencyDashboard",
     ":enableVulnerabilityAlertsWithLabel(vulnerability)",
     ":ignoreModulesAndTests",
     ":ignoreUnstable",
+    ":ignoreUnstable",
     ":label(renovate)",
     ":maintainLockFilesWeekly",
     ":noUnscheduledUpdates",
-    ":ignoreUnstable",
     ":prConcurrentLimit10",
     ":prHourlyLimitNone",
     ":prImmediately",
@@ -23,18 +24,14 @@
     ":separatePatchReleases",
     ":timezone(Asia/Tokyo)",
     ":widenPeerDependencies",
-    "group:jsTest",
-    "group:jsTestMonMajor",
-    "group:linters",
-    "group:monorepos",
-    "group:nextjsMonorepo",
-    "group:postcss",
     "group:recommended",
+    "group:monorepos",
     "group:test",
-    "helpers:disableTypesNodeMajor"
+    "group:linters",
+    "group:postcss",
+    "helpers:disableTypesNodeMajor",
+    "schedule:nonOfficeHours"
   ],
-  "schedule": ["after 9pm", "before 9am"],
-  "rangeStrategy": "bump",
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
   "packageRules": [
     {
@@ -42,6 +39,5 @@
       "matchDepTypes": ["engines"],
       "enabled": false
     }
-  ],
-  "ignoreDeps": []
+  ]
 }
