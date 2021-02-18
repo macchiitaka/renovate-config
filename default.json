@@ -4,7 +4,6 @@
     ":npm",
     ":ignoreModulesAndTests",
     ":ignoreUnstable",
-    ":autodetectPinVersions",
     ":widenPeerDependencies",
     ":separateMultipleMajorReleases",
     ":separatePatchReleases",
@@ -31,6 +30,7 @@
     "helpers:disableTypesNodeMajor",
     "schedule:nonOfficeHours"
   ],
+  "rangeStrategy": "bump",
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
   "packageRules": [
     {
