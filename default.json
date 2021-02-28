@@ -39,13 +39,8 @@
       "automerge": true
     },
     {
-      "groupName": "@takamachi/prettier-config",
-      "matchPackageNames": ["@takamachi/prettier-config"],
-      "automerge": true
-    },
-    {
-      "groupName": "@takamachi/eslint-config",
-      "matchPackageNames": ["@takamachi/eslint-config"],
+      "groupName": "@takamachi/xxx-config",
+      "matchPackagePatterns": ["^@takamachi\/*-config$"],
       "automerge": true
     },
     {
