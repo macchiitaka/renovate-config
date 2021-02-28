@@ -39,11 +39,6 @@
       "automerge": true
     },
     {
-      "groupName": "@takamachi/xxx-config",
-      "matchPackagePatterns": ["^@takamachi\\/.*-config$"],
-      "automerge": true
-    },
-    {
       "description": "disable package.json > engines update",
       "matchDepTypes": ["engines"],
       "enabled": false
