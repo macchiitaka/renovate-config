@@ -39,6 +39,16 @@
       "automerge": true
     },
     {
+      "groupName": "@takamachi/prettier-config",
+      "matchPackageNames": ["@takamachi/prettier-config"],
+      "automerge": true
+    },
+    {
+      "groupName": "@takamachi/eslint-config",
+      "matchPackageNames": ["@takamachi/eslint-config"],
+      "automerge": true
+    },
+    {
       "description": "disable package.json > engines update",
       "matchDepTypes": ["engines"],
       "enabled": false
