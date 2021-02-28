@@ -40,7 +40,7 @@
     },
     {
       "groupName": "@takamachi/xxx-config",
-      "matchPackagePatterns": ["^@takamachi\/*-config$"],
+      "matchPackagePatterns": ["^@takamachi\\/.*-config$"],
       "automerge": true
     },
     {
