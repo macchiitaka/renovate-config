@@ -18,15 +18,17 @@
   "files": [],
   "scripts": {
     "fmt": "run-s fmt:prettier fmt:package-json",
-    "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
     "fmt:package-json": "sort-package-json",
-    "test": "renovate-config-validator"
+    "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
+    "test": "run-s validate:*",
+    "validate:default": "RENOVATE_CONFIG_FILE=default.json renovate-config-validator",
+    "validate:renovate": "RENOVATE_CONFIG_FILE=renovate.json renovate-config-validator"
   },
   "devDependencies": {
     "@takamachi/prettier-config": "^1.0.1",
     "npm-run-all": "^4.1.5",
     "renovate": "^24.77.1",
-    "sort-package-json": "^1.49.0"
+    "sort-package-json": "^1.39.1"
   },
   "engines": {
     "node": "14.x",
