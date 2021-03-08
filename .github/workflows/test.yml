@@ -9,7 +9,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Setup Node.js
-        uses: volta-cli/action@v1.6.0
+        uses: volta-cli/action@v1.7.0
       - name: Get npm cache directory
         id: npm-cache-dir
         run: |
