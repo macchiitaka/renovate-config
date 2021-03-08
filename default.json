@@ -39,6 +39,12 @@
       "automerge": true
     },
     {
+      "groupName": "Stylelint",
+      "matchPackageNames": ["stylelint"],
+      "matchPackagePatterns": ["^stylelint-"],
+      "automerge": true
+    },
+    {
       "description": "disable package.json > engines update",
       "matchDepTypes": ["engines"],
       "enabled": false
