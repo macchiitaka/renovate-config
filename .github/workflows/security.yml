@@ -10,11 +10,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Set Node.js 14
-        uses: actions/setup-node@v2.1.5
-        with:
-          node-version: 14
-      - name: Install npm
-        run: npm i npm -g
+      - name: Setup Node.js
+        uses: volta-cli/action@v1.6.0
       - name: Audit
         run: npm audit
