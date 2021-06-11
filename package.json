@@ -25,7 +25,7 @@
   "devDependencies": {
     "@takamachi/prettier-config": "^1.1.0",
     "npm-run-all": "^4.1.5",
-    "renovate": "^25.38.3",
+    "renovate": "^25.38.5",
     "sort-package-json": "^1.50.0"
   },
   "engines": {
