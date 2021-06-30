@@ -1,1 +1,1 @@
-module.exports = require('@takamachi/prettier-config')
+module.exports = require('@takamachi/prettier-config');
