@@ -31,6 +31,7 @@
     "schedule:nonOfficeHours"
   ],
   "rangeStrategy": "bump",
+  "transitiveRemediation": true,
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
   "packageRules": [
     {
