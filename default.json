@@ -8,7 +8,6 @@
     ":separateMultipleMajorReleases",
     ":separatePatchReleases",
     ":maintainLockFilesWeekly",
-    ":preserveSemverRanges",
     ":automergePatch",
     ":automergeLinters",
     ":automergeTesters",
@@ -31,6 +30,7 @@
     "helpers:disableTypesNodeMajor",
     "schedule:nonOfficeHours"
   ],
+  "rangeStrategy": "bump",
   "transitiveRemediation": true,
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
   "packageRules": [
