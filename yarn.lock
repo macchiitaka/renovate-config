@@ -868,15 +868,7 @@
     "@types/emscripten" "^1.38.0"
     tslib "^1.13.0"
 
-"@yarnpkg/parsers@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-2.3.0.tgz#7b9564c6df02f4921d5cfe8287c4b648e93ea84b"
-  integrity sha512-qgz0QUgOvnhtF92kaluIhIIKBUHlYlHUBQxqh5v9+sxEQvUeF6G6PKiFlzo3E6O99XwvNEGpVu1xZPoSGyGscQ==
-  dependencies:
-    js-yaml "^3.10.0"
-    tslib "^1.13.0"
-
-"@yarnpkg/parsers@^2.3.0":
+"@yarnpkg/parsers@2.4.0", "@yarnpkg/parsers@^2.3.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-2.4.0.tgz#5d092939022c96b256eaea461816ef2b7d77fa1b"
   integrity sha512-XWgiNGh4MkhdBTJVEbXEqzk66JKjvxTtKGeLPqo3rnJ7JiJnRaK2n9MLTKQB0uoRMWYzPlISdIlok6H9OdlOVQ==
@@ -3317,10 +3309,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^25.63.1:
-  version "25.63.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.63.1.tgz#af45e4df733a5a693d98c3fdda9d88f04254f32c"
-  integrity sha512-ZBh43e7l3dhfYLAXW0ImxMwAGYW6CqkKGmwgLldM/RYPRPVEJIb2rT88KYScV+uneYDdmqx1tr/huf8DBl9+Zw==
+renovate@^25.67.0:
+  version "25.67.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.67.0.tgz#84bd505d65162dcc6d7e0546f0fa98c9ab83b203"
+  integrity sha512-Y+RZenVh48sVNKa7afKXfqP7Gn5onjlknuFnHcb1SUmB1xplpXIDEBxuE9NtOSXPU9REomdxELZlZNotEl9B5w==
   dependencies:
     "@aws-sdk/client-ecr" "3.18.0"
     "@breejs/later" "4.0.2"
@@ -3329,7 +3321,7 @@ renovate@^25.63.1:
     "@renovatebot/ruby-semver" "1.0.0"
     "@sindresorhus/is" "4.0.1"
     "@yarnpkg/core" "2.4.0"
-    "@yarnpkg/parsers" "2.3.0"
+    "@yarnpkg/parsers" "2.4.0"
     azure-devops-node-api "10.2.2"
     bunyan "1.8.15"
     cacache "15.2.0"
