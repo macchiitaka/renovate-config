@@ -1,7 +1,3 @@
 {
-  "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"],
-  "encrypted": {
-    "npmToken": "av6kip8p7pKUHPpHb/bEDBbKcb1K4vZVs+K0SNj8K+xIO0Xwp7pCHYmE3O+TC404XJe+WU9G4rftMhnRuDVOCTz6vb3hFulCArh/5lGVzZE8rDI/YCkQBOoBHIes3P9sjIWvNMHEsyH0zhzfj+VW8g1EkWtAEzcfq9WDhvQTBhPuSfoTVA871HBPcNx1/lwuoZbuYI0pMEC9Am3wom01hkTCdwExT+e2BLq5afsqut8FxIl9f0MLS3ZzqVnNzexwS+h5UGH5eDa48Eu1WZ8ojxXWgjoSuEUrZQu9VcdJ6bdZXTAHPxZzCmYb5DBUo3ZeykkWRNtnz8Dlpdz/DN+YEQ=="
-  },
-  "npmrc": "@techtouch-inc:registry=https://npm.pkg.github.com/\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}"
+  "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"]
 }
