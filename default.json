@@ -29,6 +29,7 @@
     "helpers:disableTypesNodeMajor",
     "schedule:nonOfficeHours"
   ],
+  "automergeStrategy": "squash",
   "rangeStrategy": "bump",
   "transitiveRemediation": true,
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
