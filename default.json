@@ -25,7 +25,6 @@
     "group:recommended",
     "group:monorepos",
     "group:test",
-    "group:linters",
     "group:postcss",
     "helpers:disableTypesNodeMajor",
     "schedule:nonOfficeHours"
