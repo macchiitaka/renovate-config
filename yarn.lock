@@ -996,10 +996,10 @@ asap@~2.0.3:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
-azure-devops-node-api@10.2.2:
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-10.2.2.tgz#9f557e622dd07bbaa9bd5e7e84e17c761e2151b2"
-  integrity sha512-4TVv2X7oNStT0vLaEfExmy3J4/CzfuXolEcQl/BRUmvGySqKStTG2O55/hUQ0kM7UJlZBLgniM0SBq4d/WkKow==
+azure-devops-node-api@11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.0.1.tgz#b7ec4783230e1de8fc972b23effe7ed2ebac17ff"
+  integrity sha512-YMdjAw9l5p/6leiyIloxj3k7VIvYThKjvqgiQn88r3nhT93ENwsoDS3A83CyJ4uTWzCZ5f5jCi6c27rTU5Pz+A==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
@@ -3337,10 +3337,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^26.4.5:
-  version "26.4.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-26.4.5.tgz#da1bca2d7f4e0cc4464ef493f8af5cf02b3b3906"
-  integrity sha512-5FuOCnu+1+Okg47PlLRCpCss6+Zs5hhziQooBemZ0lMhWljNUZPKmH455gzJXvj8SO/E0XF3wRAj3OHLY7m+hA==
+renovate@^26.10.0:
+  version "26.10.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-26.10.0.tgz#71457d1a27ac02a43d6527a32db11306f601b954"
+  integrity sha512-JHB0m/o38P0g80pr5306zhu6M+TixBoCENrm9O+BcClAlswOBUwIFGuRJUOCqh/h2q+ysk1PBMXvLJPanK5epA==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
@@ -3350,7 +3350,7 @@ renovate@^26.4.5:
     "@sindresorhus/is" "4.0.1"
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.4.0"
-    azure-devops-node-api "10.2.2"
+    azure-devops-node-api "11.0.1"
     bunyan "1.8.15"
     cacache "15.2.0"
     chalk "4.1.2"
