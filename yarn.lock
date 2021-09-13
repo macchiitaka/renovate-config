@@ -3363,7 +3363,7 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^27.4.2:
+renovate@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.5.0.tgz#cffebe6755eb27923070ca3c52d5c6a581a7a846"
   integrity sha512-swQMVHl/NDZoq1yLegqqmoxbxpap7J56aYRAhEMYyL9hp8HNFALh9ps/vj1Xf3f0ViINSDy2t8jyUdjhET3mPg==
