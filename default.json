@@ -27,7 +27,7 @@
     "group:test",
     "group:postcss",
     "helpers:disableTypesNodeMajor",
-    "schedule:nonOfficeHours"
+    "schedule:weekends"
   ],
   "automergeStrategy": "squash",
   "rangeStrategy": "bump",
