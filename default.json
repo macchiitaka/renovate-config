@@ -29,7 +29,6 @@
     "helpers:disableTypesNodeMajor",
     "schedule:weekends"
   ],
-  "automergeStrategy": "squash",
   "rangeStrategy": "bump",
   "transitiveRemediation": true,
   "mergeMethod": "squash",
