@@ -31,7 +31,7 @@
   ],
   "rangeStrategy": "bump",
   "transitiveRemediation": true,
-  "mergeMethod": "squash",
+  "automergeStrategy": "squash",
   "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
   "packageRules": [
     {
