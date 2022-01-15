@@ -27,7 +27,7 @@
     "group:test",
     "group:postcss",
     "helpers:disableTypesNodeMajor",
-    "schedule:weekends"
+    "schedule:nonOfficeHours"
   ],
   "rangeStrategy": "bump",
   "transitiveRemediation": true,
