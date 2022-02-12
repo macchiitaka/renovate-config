@@ -9,7 +9,6 @@
     ":separatePatchReleases",
     ":maintainLockFilesWeekly",
     ":automergePatch",
-    ":automergeLinters",
     ":automergeTesters",
     ":automergeTypes",
     ":prConcurrentLimit10",
