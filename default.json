@@ -7,7 +7,7 @@
     ":widenPeerDependencies",
     ":separateMultipleMajorReleases",
     ":separatePatchReleases",
-    ":maintainLockFilesWeekly",
+    ":maintainLockFilesMonthly",
     ":automergePatch",
     ":automergeTesters",
     ":automergeTypes",
