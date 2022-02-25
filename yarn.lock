@@ -883,10 +883,10 @@
     write-file-atomic "^3.0.3"
     write-yaml-file "^4.2.0"
 
-"@renovatebot/pep440@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-2.0.0.tgz#c9faec210d3eefed9c556f796dc1ff00ab55c979"
-  integrity sha512-9dw67KZW+k1VzzlScH10/4ukaqyYR8TQm3QHBD4EkbUt2NPYlalXvdIjvx9tk15h4xubglDgYpsEMQkfEHMbvA==
+"@renovatebot/pep440@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-2.1.0.tgz#a883a2a9ab57390b63af27e5920948c71d8911b0"
+  integrity sha512-iG3kP5kVDzghATS4DQ6C7pMRiJVyyLAOBQmnYweZcfZa9AEx/lbIx8S6D84YGLniAnHm++//xWg+vi6fiH43Bw==
 
 "@renovatebot/ruby-semver@1.1.2":
   version "1.1.2"
@@ -2963,10 +2963,10 @@ minimalistic-assert@^1.0.0:
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
 
-"minimatch@2 || 3", minimatch@3.1.1, minimatch@^3.0.4:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.1.tgz#879ad447200773912898b46cd516a7abbb5e50b0"
-  integrity sha512-reLxBcKUPNBnc/sVtAbxgRVFSegoGeLaSjmphNhcwcolhYLRgtJscn5mRl6YRZNQv40Y7P6JM2YhSIsbL9OB5A==
+"minimatch@2 || 3", minimatch@3.1.2, minimatch@^3.0.4:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
 
@@ -3084,10 +3084,10 @@ nan@^2.14.0, nan@^2.15.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
-nanoid@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.0.tgz#5906f776fd886c66c24f3653e0c46fcb1d4ad6b0"
-  integrity sha512-JzxqqT5u/x+/KOFSd7JP15DOo9nOoHpx6DYatqIHUW2+flybkm+mdcraotSQR5WcnZr+qhGVh8Ted0KdfSMxlg==
+nanoid@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.1.tgz#6347a18cac88af88f58af0b3594b723d5e99bb35"
+  integrity sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==
 
 ncp@~2.0.0:
   version "2.0.0"
@@ -3702,17 +3702,17 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^31.89.9:
-  version "31.89.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-31.89.9.tgz#c4aed3b1c1677172912d8d1b00f24cf75d426aa7"
-  integrity sha512-4/ElXeZPFtsdLtQQVzLLNqt+hAu+nxba72DYs7KRa2vE1Kwauih+Hr07h0VOBjjNhDOCYbsjWLWjGzUvlutQhg==
+renovate@^31.89.12:
+  version "31.92.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-31.92.0.tgz#9734e4fe411d682a719b12cbc5217dba0cd53947"
+  integrity sha512-af7FrS7P8kSyh1Wq6VSc03aYdFafhnX7emS17zs83bQyGaXbVPGQkKmGcocnxK10zt2kWY85RS00EkWBH5X7XQ==
   dependencies:
     "@aws-sdk/client-ec2" "3.50.0"
     "@aws-sdk/client-ecr" "3.50.0"
     "@breejs/later" "4.1.0"
     "@cheap-glitch/mi-cron" "1.0.1"
     "@iarna/toml" "2.2.5"
-    "@renovatebot/pep440" "2.0.0"
+    "@renovatebot/pep440" "2.1.0"
     "@renovatebot/ruby-semver" "1.1.2"
     "@sindresorhus/is" "4.4.0"
     "@yarnpkg/core" "3.1.0"
@@ -3758,9 +3758,9 @@ renovate@^31.89.9:
     markdown-it "12.3.2"
     markdown-table "2.0.0"
     marshal "0.5.3"
-    minimatch "3.1.1"
+    minimatch "3.1.2"
     moo "0.5.1"
-    nanoid "3.3.0"
+    nanoid "3.3.1"
     node-html-parser "5.2.0"
     openpgp "5.1.0"
     p-all "3.0.0"
@@ -3775,7 +3775,7 @@ renovate@^31.89.9:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.0"
-    simple-git "3.2.4"
+    simple-git "3.2.6"
     slugify "1.6.5"
     traverse "0.6.6"
     tslib "2.3.1"
@@ -3984,10 +3984,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git@3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.2.4.tgz#0c9dc47117f128a13c2a44482e206b1fc038dcf0"
-  integrity sha512-hkn1LgXW9bYqvAbge60m7W9iGljSTe2F66II03eNc4s+/czwHSUWEHe7UQlmWCfBxl6DiusD+6g0ifHbJlG8Xg==
+simple-git@3.2.6:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.2.6.tgz#2e73ebe11f49b0fb3bf9a4ca1b0527fe4a78efb7"
+  integrity sha512-1AFxwgpFiqpBEKHhRC8lhZxtLPP6iuzw2SUN91gA4+Hi+kSfm/oOiUZ2YiT+sEZPP/77KWG7Ci47P9+OC7Dcaw==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
