@@ -48,6 +48,10 @@
       "description": "disable package.json > engines update",
       "matchDepTypes": ["engines"],
       "enabled": false
+    },
+    {
+      "groupName": "Tiptap",
+      "matchPackagePatterns": ["^@tiptap"]
     }
   ]
 }
