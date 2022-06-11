@@ -19,7 +19,7 @@
   "scripts": {
     "fmt": "run-s fmt:prettier fmt:package-json",
     "fmt:package-json": "sort-package-json",
-    "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
+    "fmt:prettier": "prettier --write --cache --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
     "test": "RENOVATE_CONFIG_FILE=default.json renovate-config-validator"
   },
   "devDependencies": {
@@ -30,14 +30,10 @@
     "renovate": "^32.83.0",
     "sort-package-json": "^1.57.0"
   },
+  "packageManager": "yarn@1.22.19",
   "engines": {
     "node": ">=14.x",
     "npm": ">=7.x",
     "yarn": ">=1.x"
-  },
-  "volta": {
-    "node": "16.15.1",
-    "npm": "8.12.1",
-    "yarn": "1.22.19"
   }
 }
