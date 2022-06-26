@@ -1228,15 +1228,15 @@
   dependencies:
     graceful-fs "^4.2.6"
 
-"@pnpm/read-project-manifest@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@pnpm/read-project-manifest/-/read-project-manifest-3.0.3.tgz#bd0b31c0974ca45f66a13fec8c31d332c7cbd959"
-  integrity sha512-gkiv/CrU/cM4iPrqRThAp3c/gBAe8qwNnK4pXYmeqTeKe+Wnzrjpg9x4l0L+jYPpV2I/OvmucMnU3a5anMRksQ==
+"@pnpm/read-project-manifest@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@pnpm/read-project-manifest/-/read-project-manifest-3.0.4.tgz#111e315b32c2f951a53dd029249d1463ccf503ad"
+  integrity sha512-YtPdr82a1mrgQJefX3XZ8mp8yl9h50HTvyl3eqHjiZUB53ey1iFvkSzd9UjAeq2opeAnWeUK8JlMW/10KkUS1g==
   dependencies:
     "@pnpm/error" "3.0.1"
     "@pnpm/graceful-fs" "2.0.0"
-    "@pnpm/types" "8.1.0"
-    "@pnpm/write-project-manifest" "3.0.2"
+    "@pnpm/types" "8.2.0"
+    "@pnpm/write-project-manifest" "3.0.3"
     detect-indent "^6.0.0"
     fast-deep-equal "^3.1.3"
     is-windows "^1.0.2"
@@ -1246,17 +1246,17 @@
     sort-keys "^4.2.0"
     strip-bom "^4.0.0"
 
-"@pnpm/types@8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@pnpm/types/-/types-8.1.0.tgz#14488c184230aafae14886720bfc04871c95ad71"
-  integrity sha512-1AnX21D0vDE2yiNT85EWY9mEASgfPPNDun3bknLWULNjTfGCfiItZcTfmW4+hUgvFcoIW5PiTkpjxSMzHJ2BvA==
+"@pnpm/types@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@pnpm/types/-/types-8.2.0.tgz#752d19befb91e3358df303c44a3e0d8a6c5ff20b"
+  integrity sha512-Lr976vR4mezo3iL4bwGXyZFaDuVhkoko1Dr159mj+/GrqghiVmZFSZQQZNkfWEvMq1v3NSCTtPPzMTZASKJzCg==
 
-"@pnpm/write-project-manifest@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@pnpm/write-project-manifest/-/write-project-manifest-3.0.2.tgz#c7b52727c3bdbf91159ed021d7253c876c9923a4"
-  integrity sha512-+yJQaoSkM9Nfaj5Zf/whAWwYkVwn4XFMdIV9xklJiScSf3Qd9QpFBdi2NIlxxgZwC9eEQSwj6xO3Z+jnPpyl4w==
+"@pnpm/write-project-manifest@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@pnpm/write-project-manifest/-/write-project-manifest-3.0.3.tgz#1722e412bbffe12456ecfeaddf5f9ec1eb945403"
+  integrity sha512-nQBL/6iXTDOI3pYIUEb0VQLhjvgklpdstKP1fup5NuYUsvlNProVnWxHVxaU3y7kdAFcHGrHXJY4twLRX+pk8Q==
   dependencies:
-    "@pnpm/types" "8.1.0"
+    "@pnpm/types" "8.2.0"
     json5 "^2.1.3"
     write-file-atomic "^3.0.3"
     write-yaml-file "^4.2.0"
@@ -2098,7 +2098,7 @@ dargs@^7.0.0:
   resolved "https://registry.yarnpkg.com/dargs/-/dargs-7.0.0.tgz#04015c41de0bcb69ec84050f3d9be0caf8d6d5cc"
   integrity sha512-2iy1EkLdlBzQGvbweYRFxmFath8+K7+AKB0TlhHWkNuH+TmovaMH/Wp7V7R4u7f4SnX3OgLsU9t1NI9ioDnUpg==
 
-debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3:
+debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -2454,13 +2454,13 @@ filter-obj@^1.1.0:
   resolved "https://registry.yarnpkg.com/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
   integrity sha1-mzERErxsYSehbgFsbF1/GeCAXFs=
 
-find-packages@9.0.3:
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/find-packages/-/find-packages-9.0.3.tgz#bd2e18a056a83a3c6a4dea54b15964e6065d20a3"
-  integrity sha512-GkH9OzuxG4s4IkHKukmrKu7pAL2NGGI9TCCskRpUCiWjLfiSoezWJPmqMV8xafH9pxw73gkmWAG2pZqsVSWZ9Q==
+find-packages@9.0.4:
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/find-packages/-/find-packages-9.0.4.tgz#f6429c8cf5dae0062d621360b8b7284c6ce7427a"
+  integrity sha512-+C7ND27Yv2L1ZyJFN1SV1Odkeo0YS8xIN6TPD3AMAIqtCe30BsPyOkYuhKLO5/Q7mtc14IIOmD1DP8+v3CYcpQ==
   dependencies:
-    "@pnpm/read-project-manifest" "3.0.3"
-    "@pnpm/types" "8.1.0"
+    "@pnpm/read-project-manifest" "3.0.4"
+    "@pnpm/types" "8.2.0"
     fast-glob "^3.2.4"
     p-filter "^2.1.0"
 
@@ -4234,10 +4234,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.98.1:
-  version "32.98.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.98.1.tgz#436d2483ce59f51b1ed43bbe018813a1715779fb"
-  integrity sha512-n3Z/6tXEAaOKXBxkyzPvIRdrpOT77/+9rH2PNkqUlYNdYiN8qIt0MyX2EDj6AVXX3AxlpZytoRTEnkVrhzxRKg==
+renovate@^32.99.3:
+  version "32.99.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.99.3.tgz#1f748aca45f5e2a8a4848eee71dfc78e42c5982e"
+  integrity sha512-bPHCHphE0Y0IQpzRdz/gnvEDbYHVMowvKJurlDxqW0cHjZXBEgYRnaQpAIbfFj+jU7zrdDNIOq64F203QqNuUw==
   dependencies:
     "@aws-sdk/client-ec2" "3.72.0"
     "@aws-sdk/client-ecr" "3.72.0"
@@ -4273,7 +4273,7 @@ renovate@^32.98.1:
     emojibase-regex "6.0.1"
     extract-zip "2.0.1"
     fast-safe-stringify "2.1.1"
-    find-packages "9.0.3"
+    find-packages "9.0.4"
     find-up "5.0.0"
     fs-extra "10.1.0"
     git-url-parse "11.6.0"
@@ -4310,7 +4310,7 @@ renovate@^32.98.1:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.0"
-    simple-git "3.7.1"
+    simple-git "3.8.0"
     slugify "1.6.5"
     traverse "0.6.6"
     tslib "2.4.0"
@@ -4514,14 +4514,14 @@ signal-exit@^3.0.2, signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git@3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.7.1.tgz#cb85c59da4da3d69792d206dd28cfbd803941fac"
-  integrity sha512-+Osjtsumbtew2y9to0pOYjNzSIr4NkKGBg7Po5SUtjQhaJf2QBmiTX/9E9cv9rmc7oUiSGFIB9e7ys5ibnT9+A==
+simple-git@3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.8.0.tgz#d93500f3d792cec365420c80ddc6cb782edf737d"
+  integrity sha512-nbR1PufcbvCaW90CiAXC1mM7OnEqLzjSOnySnq7Sd2kcVG6GxSa+DhxhFmCgxLv4kWCKmZagkCZSjfNAQTZwaw==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
-    debug "^4.3.3"
+    debug "^4.3.4"
 
 slash@^3.0.0:
   version "3.0.0"
