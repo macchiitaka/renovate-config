@@ -20,6 +20,7 @@
     ":enableVulnerabilityAlertsWithLabel(vulnerability)",
     ":dependencyDashboard",
     ":timezone(Asia/Tokyo)",
+    "replacements:all",
     "group:recommended",
     "group:monorepos",
     "group:test",
