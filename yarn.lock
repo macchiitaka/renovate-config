@@ -3698,6 +3698,11 @@ moo@0.5.1:
   resolved "https://registry.yarnpkg.com/moo/-/moo-0.5.1.tgz#7aae7f384b9b09f620b6abf6f74ebbcd1b65dbc4"
   integrity sha512-I1mnb5xn4fO80BH9BLcF0yLypy2UKl+Cb01Fu0hJRkJjlCRtxZMWkTdAtDd5ZqCOxtCkhmRwyI57vWT+1iZ67w==
 
+moo@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/moo/-/moo-0.5.2.tgz#f9fe82473bc7c184b0d32e2215d3f6e67278733c"
+  integrity sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==
+
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
@@ -4311,10 +4316,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.226.1:
-  version "32.231.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.231.0.tgz#5009ffdd4b36c0bde28e4d738a22d01034c5e7dd"
-  integrity sha512-3lt/H+5KPCWC7pLJw+i/L1ZbuchXiql4DQ/QfKJYXSXZ/AlF9UIg8BBDh9B8KHUWPO09iLc6AreHinwV0fut7Q==
+renovate@^32.232.0:
+  version "32.232.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.232.0.tgz#969b92bcd9e9777978ee92afcf7629483a8e828e"
+  integrity sha512-LvAeGtHlpk7fiD/vKI+Vmt9oi5o0Ql76lbwmTS8tne/EFsONXHcruEt+bvJ3foXC+WXXIE8o2jlJ93/ClI/xxA==
   dependencies:
     "@aws-sdk/client-ec2" "3.155.0"
     "@aws-sdk/client-ecr" "3.154.0"
@@ -4375,7 +4380,7 @@ renovate@^32.226.1:
     markdown-table "2.0.0"
     marshal "0.5.4"
     minimatch "5.1.0"
-    moo "0.5.1"
+    moo "0.5.2"
     nanoid "3.3.4"
     node-html-parser "6.1.1"
     openpgp "5.5.0"
