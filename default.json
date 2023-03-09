@@ -26,6 +26,7 @@
     "group:test",
     "group:postcss",
     "helpers:disableTypesNodeMajor",
+    "schedule:automergeWeekdays",
     "schedule:weekends"
   ],
   "prConcurrentLimit": 3,
