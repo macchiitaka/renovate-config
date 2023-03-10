@@ -26,8 +26,7 @@
     "group:test",
     "group:postcss",
     "helpers:disableTypesNodeMajor",
-    "schedule:automergeNonOfficeHours",
-    "schedule:weekends"
+    "schedule:nonOfficeHours"
   ],
   "prConcurrentLimit": 3,
   "rangeStrategy": "bump",
