@@ -26,7 +26,7 @@
     "@takamachi/prettier-config": "^1.1.0",
     "@types/prettier": "^2.7.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.6",
     "renovate": "^35.15.0",
     "sort-package-json": "^2.4.1"
   },
