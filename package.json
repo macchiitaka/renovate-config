@@ -27,7 +27,7 @@
     "@types/prettier": "^2.7.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.8",
-    "renovate": "^35.114.3",
+    "renovate": "^35.115.2",
     "sort-package-json": "^2.4.1"
   },
   "packageManager": "npm@9.7.1",
