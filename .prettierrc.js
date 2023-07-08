@@ -1,1 +1,4 @@
-module.exports = require('@takamachi/prettier-config');
+module.exports = {
+  singleQuote: true,
+  trailingComma: 'all',
+};

@@ -1,3 +1,7 @@
 {
-  "extends": ["github>macchiitaka/renovate-config", ":automergeMinor", ":assignee(macchiitaka)"]
+  "extends": [
+    "github>macchiitaka/renovate-config",
+    ":automergeMinor",
+    ":assignee(macchiitaka)"
+  ]
 }
