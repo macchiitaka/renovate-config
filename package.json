@@ -27,7 +27,7 @@
     "npm-run-all2": "^6.1.1",
     "prettier": "^3.2.4",
     "renovate": "^37.153.2",
-    "sort-package-json": "^2.6.0"
+    "sort-package-json": "^2.7.0"
   },
   "packageManager": "npm@10.4.0",
   "engines": {
