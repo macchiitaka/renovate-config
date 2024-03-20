@@ -23,7 +23,7 @@
     "test": "RENOVATE_CONFIG_FILE=default.json renovate-config-validator"
   },
   "devDependencies": {
-    "@types/prettier": "^2.7.3",
+    "@types/prettier": "^3.0.0",
     "npm-run-all2": "^6.1.2",
     "prettier": "^3.2.5",
     "renovate": "^37.258.0",
