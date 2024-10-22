@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/prettier": "^3.0.0",
-    "npm-run-all2": "^6.2.4",
+    "npm-run-all2": "^6.2.6",
     "prettier": "^3.3.3",
     "renovate": "^37.440.7",
     "sort-package-json": "^2.10.1"
