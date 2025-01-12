@@ -36,7 +36,7 @@
   "packageRules": [
     {
       "groupName": "sort-package-json",
-      "matchPackageNames": ["sort-package-json"]
+      "matchPackageNames": ["sort-package-json"],
       "automerge": true
     },
     {
