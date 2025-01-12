@@ -32,11 +32,11 @@
   "rangeStrategy": "bump",
   "transitiveRemediation": true,
   "automergeStrategy": "squash",
-  "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"],
+  "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest", "pnpmDedupe"],
   "packageRules": [
     {
       "groupName": "sort-package-json",
-      "matchPackageNames": ["sort-package-json"],
+      "matchPackageNames": ["sort-package-json"]
       "automerge": true
     },
     {
