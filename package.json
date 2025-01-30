@@ -28,7 +28,7 @@
     "renovate": "^39.140.3",
     "sort-package-json": "^2.14.0"
   },
-  "packageManager": "npm@11.0.0",
+  "packageManager": "npm@11.1.0",
   "engines": {
     "node": ">=14.x",
     "npm": ">=7.x",
